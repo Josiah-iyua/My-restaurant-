@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    
+}
+
+
+
+header{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    margin-top: 10px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero{
+    background: linear-gradient(to right,orange, darkred);
+    background-color:orange;
+    text-align:center;
+    padding: 80px 20px;
+    color: #fff;
+}
+
+.hero h2{
+    font-size: 50px;
+
+}
+
+nav a:hover{
+    transition: 0.4s ease-in-out;
+    color: orange;
+}
+
+button{
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+button:hover{
+    background-color: orange;
+    color: #000;
+}
+
+.menu{
+    text-align: center;
+    padding: 40px;
+}
+
+.food-card{
+    background-color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px gray;
+    transition: 0.4s ease-in-out;
+}
+
+.content{
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp{
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.whatsapp:hover{
+    background-color: darkgreen;
+}
+
+@media (max-width:768px) {
+    
+    nav a{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h2{
+        font-size: 35px;
+    }
+
+}
+
+.dark-btn {
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    border: none;
+    margin-top: 15px;
+}
